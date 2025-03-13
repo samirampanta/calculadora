@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    font-size:xx-large;
+    margin-top: 30px;
+    border: solid;
+    box-shadow: 1px 0px 5px;
+    padding: 15px;
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.card2{
+    height: 80px;
+    background-color: black;
+    width: 390px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.display {
+    height: 80px;
+    width: 90px;
+    display: flex;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    background-color: #b83535;
+    border-radius: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.buttons-container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(90px, auto) repeat(4, 90px);
+    gap: 4px;
+
+}
+
+button{
+   
+border-radius: 30px;
+ width: 100px;
+ height: 80px;
+}
+
+.bntMaior{
+    height: 180px;
+}
